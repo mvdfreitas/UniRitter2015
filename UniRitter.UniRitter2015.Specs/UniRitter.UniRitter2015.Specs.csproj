@@ -96,7 +96,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseAPISteps.cs" />
+    <Compile Include="CommomAPISteps.cs" />
     <Compile Include="GlobalHooks.cs" />
+    <Compile Include="Models\IModel.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Post.cs" />
     <Compile Include="PeopleAPI.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -109,6 +114,7 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="PostsAPISteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
